@@ -80,7 +80,18 @@
     </script>
     
 </head>
+<style>
+  /* Hover effect for footer links */
+  .info-item a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+  }
 
+  .info-item a:hover {
+    color: #ffc451; /* Theme yellow color */
+  }
+</style>
 <body>
 
   <header id="header" class="header d-flex align-items-center">
@@ -141,26 +152,37 @@
             </div>
           </div><!-- End Info Item -->
 
-          <div class="col-lg-3 col-md-6">
-            <div class="info-item d-flex flex-column justify-content-center align-items-center">
-              <i class="bi bi-envelope"></i>
-              <h3>Email Us</h3>
-              <p>info@akbarandassociates.com</p>
-            </div>
-          </div><!-- End Info Item -->
+       <div class="col-lg-3 col-md-6">
+  <div class="info-item d-flex flex-column justify-content-center align-items-center">
+    <i class="bi bi-envelope"></i>
+    <h3>Email Us</h3>
+    <p>
+      <a href="mailto:info@akbarandassociates.com">
+        info@akbarandassociates.com
+      </a>
+    </p>
+  </div>
+</div><!-- End Info Item -->
 
-          <div class="col-lg-3 col-md-6">
-            <div class="info-item  d-flex flex-column justify-content-center align-items-center">
-              <i class="bi bi-telephone"></i>
-              <h3>Head Office</h3>
-              <p>021-34529091-6</p>
-              <br>
-              <h3>Lahore Office</h3>
-              <p>042-35770033-34</p>
-            </div>
-          </div><!-- End Info Item -->
+<div class="col-lg-3 col-md-6">
+  <div class="info-item d-flex flex-column justify-content-center align-items-center">
+    <i class="bi bi-telephone"></i>
+    <h3>Head Office</h3>
+    <p>
+      <a href="tel:+922134529091" >
+        021-34529091-6
+      </a>
+    </p>
+    <br>
+    <h3>Lahore Office</h3>
+    <p>
+      <a href="tel:+924235770033">
+        042-35770033-34
+      </a>
+    </p>
+  </div>
+</div><!-- End Info Item -->
 
-        </div>
 
         <div class="row gy-4 mt-1">
 
